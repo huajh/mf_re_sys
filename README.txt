@@ -20,7 +20,7 @@ the MATLAB 7.0 (or higher version).
 	1) To compile program, just run the 'main.m' script file.
 	
 	2) 'regularparam_select.m' is a script file that performs 
-	  the program to select of regularization parameter \lambda.
+	  the program to select best value of the regularization parameter \lambda.
 	  
 	3) 'mf_resys_func.m' is a function that performs the a gradient 
 	  descent algorithm for regularized squared error cost function.
