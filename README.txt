@@ -8,7 +8,7 @@
 
 AUTHOR: 	Junhao Hua
 
-EMAIL:		huajh7@gmail.com
+EMAIL:		huajh7@gmail.com 
 
 
 #Environment Requirement#
