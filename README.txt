@@ -6,9 +6,9 @@
 
 #Basic information#
 
-AUTHOR: 	Junhao Hua (»ª¿¡ºÀ)
-Student ID: 11331007
-EMAIL:		huajh7@gmail.com or huajh@zju.edu.cn
+AUTHOR: 	Junhao Hua
+
+EMAIL:		huajh7@gmail.com
 
 
 #Environment Requirement#
