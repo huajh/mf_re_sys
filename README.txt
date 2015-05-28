@@ -4,13 +4,6 @@
 %		Final Project: Recommender Systems
 %	
 
-#Basic information#
-
-AUTHOR: 	Junhao Hua
-
-EMAIL:		huajh7@gmail.com
-
-
 #Environment Requirement#
 
 The program is written by MATLAB. Make Sure you have installed 
