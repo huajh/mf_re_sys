@@ -23,17 +23,30 @@ feat_num = 10;
 P = mf_resys_func( Y,R,feat_num,lambda);
 
 fid = fopen('pred_ratings.txt','wt');
-for i=1:user_num
-    for j=1:item_num
-        if R(j,i) == 1
-            entry = Y(j,i);
-        else
-            entry = round(P(j,i));
-        end
-        fprintf(fid,'%d %d %d\n',i,j,entry);
-    end
-end
-fclose(fid);
+ 
+% for i=1:user_num
+%     for j=1:item_num
+%         if R(j,i) == 1
+%             entry = Y(j,i);
+%         else
+%             entry = round(P(j,i));
+%         end
+%         fprintf(fid,'%d %d %d\n',i,j,entry);
+%     end
+% end
+% fclose(fid);
+
+load('data_full.mat');
+idx1 = find(L_train==1);
+idx2 = find(R==1);
+idx = setdiff(idx2,idx1);
+
+% prediction error
+pred_mat = zeros(size(P));
+pred_mat(idx) = round(P(idx));
+
+pre_err = norm(pred_mat(idx) - Y(idx), 2)^2/ norm(Y(idx),2)^2;
+fprintf('\n\nNormalization predication error = %.4f\n', pre_err);
 
 
 
