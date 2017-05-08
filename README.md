@@ -4,19 +4,19 @@
 %		Final Project: Recommender Systems
 %	
 
-#Basic information#
+## Basic information
 
 AUTHOR: 	Junhao Hua
 
 EMAIL:		huajh7@gmail.com 
 
 
-#Environment Requirement#
+## Environment Requirement
 
 The program is written by MATLAB. Make Sure you have installed 
 the MATLAB 7.0 (or higher version).
 
-#Instruction#
+## Instruction
 	1) To compile program, just run the 'main.m' script file.
 	
 	2) 'regularparam_select.m' is a script file that performs 
